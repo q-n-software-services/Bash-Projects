@@ -1,0 +1,69 @@
+
+* We declare the 3 basic arrays i.e. for player, dealer and deck
+* We create a function for creating a new deck of cards and respective suites
+* We Output names of all possible card combinations
+
+* A Function is created to check and output the suite of card
+* A Function is created to check and output the name of card
+* A Function is created to check and output the suite of card
+* A Function is created to check Whether the card is an ACE or not and return a True or False Value
+* A Function is created to check Whether the card is an Face or not and return a True or False Value
+* A Function is created to output the full name of the card (drawn or displayed)
+* A Function is created to yield and display the abbreviation of the card
+* A Function is created to calculate the value of cards in hand of the player
+
+* We use a For loop to calculate total value of all the cards in Player's/dealers's hand
+* We Check and compute the value of the card if its an ace and add it to total
+
+* Function is designed to calculate and output the abbreviation of all the cards in player's hand
+* A Function is designed to check that is the player BUSTED or not i.e. is value > 21 or not
+
+* We Check that is the player's cards inhand value equal to 21 or not
+* We Check that is it a BlackJack or not
+
+* A Function is created to cause a delay in output to smoothen the game
+* A Function is created to automatically draw the first/top card from deck as being the dealer and for displaying the card drawn
+* A Function is created to draw the first/top card from deck as being the Player and for displaying the card drawn
+* A Function is created to handle the Player's Turn
+
+* A repeat-until loop is used to continuously input a 'h' or 's' value for playing the game until the player wins or loses or decides to stay
+* We Check the input and call the respective function
+* We Yield a 1 value if its a bust
+
+* A Function is created to handle the Dealer's Turn
+* We Output the cards that dealer has in hand and their values and abbreviations
+* We again display the values of cards that player has in his hand
+
+* Using a repeat-until loop, we continue process until dealers cards value exceeds 17or is greater than value of player's cards
+* We Check the value of cards in dealers hands and output them with abbreviations
+* We Check that the dealers is BUSTED or not and quit game if its busted or else continue
+
+
+* A Function is created to start and handle a new game
+* We Create a new deck of cards and shuffle them
+* We Assign random cards to dealer and player respectively
+* We Display details of the card that the player draws
+
+* We Check that is anyone of player or ealer become a blackJack or not
+  and then display the cards dealer has
+* If both are black jack, then its a draw
+     otherwise displaying a BlackJack text to symbolize that Player has won
+* If player is not a black jack, we check the dealers cards exclusively
+   and display a statement of "Dealer wins" if he has a black jJack
+* Otherwise,  we display the cards dealer has in hand
+
+* We Check that players cards value exceeds 21 or not.
+     if cards value exceeds 21 then BUSTED is displayed and game over
+* We Check that Dealers cards value exceeds 21 or not.
+     if cards value exceeds 21 then BUSTED is displayed and game over
+
+* If no one is busted, then we recalculate the values of cards both the playes have in hand respectively
+* We Display the value of cards both players have in hand
+* We Check and compare the values of cards both player and dealer have in hand and then output the text if one wins or if its a draw
+
+* We create a Function to handle the Main Menu that gives the option to play or quit
+* A repeat-until loop is used to repeat until the value is q that translates to quitting the game.
+
+* If the input is 'p' then we sr=tart a new game
+
+* We call the main loop function to run the entire program

@@ -1,0 +1,26 @@
+ Bonus and salary calculator written in Bash. To run, give this file
+ execute permissions and run it:
+   chmod u+x bonus.sh
+   ./bonus.sh
+
+ Alternatively you can run Bash with this file as an argument:
+   bash bonus.sh
+
+Follow the commands as displayed.
+
+Enter the name of output file, the path to it (or just press enter if current path is to be used)
+
+The program is designed to input the data for 12 months
+
+You have to enter data for each month one by one
+
+First enter the total number of SalesPersons i.e. between 3 and 20 inclusive
+
+Then enter the name and sales data of every seller for that particular month. Then same for the second month and on and on.
+
+Then the program will do all the calculations for bonus, taxes and net salary for every sales person.
+
+Then the results would be sorted with respect to the names
+
+he data will be outputted to the text file with custom name at defined location
+

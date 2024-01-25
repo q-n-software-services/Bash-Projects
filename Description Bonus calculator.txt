@@ -1,0 +1,31 @@
+
+* We Declare Variables with Average Cost of Respective cars/models
+* We Declare basic salary as pre-defined
+* We Declare arrays for manipulating and storing bulk data for employees Names, Gross pay and Net Salary.
+* We Take Input for the number of Sales-Persons Present
+* We Validate the input value to be between 3 and 20 Inclusive
+* We get user Input for file name for the data file that would be yielded
+* We get user Input for file path for the data file that would be yielded
+* We use a For loop from 1 to 12 for Inputting the data for 12 months for all the Sales Persons present
+* We get user Input for the name of month for which data is to be entered
+* We get user Input for the name and sales data for each sales person using a While Loop
+* We get user Input for the salesperson name
+* We get user Input for number of  A class Models sold by the respective salesperson
+* We get user Input for number of  B class Models sold by the respective salesperson
+* We get user Input for number of  C class Models sold by the respective salesperson
+* We get user Input for number of  E class Models sold by the respective salesperson
+* We get user Input for number of  AMG C65 sold by the respective salesperson
+* We Calculate the total amount of sale produced by the respective seller
+* We Determine the Bonus received by the respective seller depending on the sale produced by him/her
+* We Determine the payable TAX by the respective seller depending on his/her income
+* We Determine the net salary of the respective Sales-person
+* We Append the data to arrays to manipulate it further
+
+* Another Nested While loops is used for BUBBLE SORT algorithm. It is done to sort the data with respect to Names
+* If statement is used to judge whether one name is greater than other for sorting
+* Secondly, Temporary variables are used to assist bubble sort
+* We Output a message if data is already sorted
+
+* Then we check that if path is provided or not
+  If path not provided, we only use name. or otherwise, we add a slash between name and path
+* Finally, we Output all data to the custom text file using a while loop

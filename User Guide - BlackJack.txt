@@ -1,0 +1,21 @@
+
+Simple Blackjack game written in Bash. To play, give this file
+execute permissions and run it:
+chmod u+x bashjack.sh
+./bashjack.sh
+
+Alternatively you can run Bash with this file as an argument:
+   bash bashjack.sh
+
+ Input keys are indicated by single characters surrounded by
+ brackets. For example, '(h)it' can be read as 'Press h to hit.'
+  press s to stay
+
+ The '-d' option may be used to specify the delay between messages:
+   ./bashjack.sh -d '0.2'
+
+ This value is passed as an argument to the `sleep` command, and 
+ defaults to '1'.
+
+
+
